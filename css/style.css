@@ -116,7 +116,6 @@ body{
 
 .btn:hover{
     transform: translateY(-3px);  /* to go up use neg. value to go down use pos. value*/
-    text-decoration: none;
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
 
