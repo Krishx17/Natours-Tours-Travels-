@@ -43,6 +43,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center; 
 }
 
 .heading-primary{
@@ -50,6 +51,7 @@ body{
     text-transform: uppercase;
 
     backface-visibility: hidden;
+    margin-bottom: 60px;
 }
 
 .heading-primary-main{
@@ -59,7 +61,7 @@ body{
     letter-spacing: 35px;
 
     animation-name: moveInLeft;
-    animation-duration: 5s;
+    animation-duration: 1s;
 }
  
 .heading-primary-sub{
@@ -79,7 +81,7 @@ body{
         transform: translateX(20px);
     }
     100%{
-        opacity: 1%;
+        opacity: 1;
         transform: translate(0);
     }
 }
@@ -96,15 +98,38 @@ body{
         transform: translateX(-20px);
     }
     100%{
-        opacity: 1%;
+        opacity: 1;
         transform: translate(0);
     }
 }
 
-.btn:link
+.btn:link,  
 .btn:visited{
+    display: inline-block;
     text-transform: uppercase;
-     
+    text-decoration: none; 
+    padding: 10px 10px;
+    border-radius: 100px;
+    transition: all .2s;
+    font-size: 12px;
+}
+
+.btn:hover{
+    transform: translateY(-3px);  /* to go up use neg. value to go down use pos. value*/
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+
+.btn-white{
+    background-color: #fff;
+    color: #777;
+
 }
 
 
