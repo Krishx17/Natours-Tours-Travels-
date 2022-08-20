@@ -38,6 +38,10 @@ body{
     height: 35px;
 }
 
+.logo-box{
+    padding: 45px 0 0 45px;
+}
+
 .text-box{
     position: absolute;
     top: 50%;
@@ -103,6 +107,17 @@ body{
     }
 }
 
+@keyframes moveInBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(30px);  
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
 .btn:link,  
 .btn:visited{
     display: inline-block;
@@ -153,25 +168,7 @@ body{
 }
 
 .btn-animated{
-    animation: moveInbottom .5s ease-out .75s;
+    animation: moveInBottom .3s ease-out .25s;
     animation-fill-mode: backwards;
 }
 
-/* @keyframes moveInBottom{
-    0%{
-        opacity: 1;
-        transform: translateY(100px); 
-    }
-    60%{
-        opacity: 1;
-        transform: translateY(100px);
-    }
-    80%{
-        opacity : 1;
-        transform: translateY(20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-} */
