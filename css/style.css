@@ -112,6 +112,7 @@ body{
     border-radius: 100px;
     transition: all .2s;
     font-size: 12px;
+    position: relative;
 }
 
 .btn:hover{
@@ -129,8 +130,48 @@ body{
     color: #777;
 }
 
+.btn::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
 
+.btn-white::after{
+    background-color: #fff;
+}
 
+.btn:hover::after{
+    transform: scaleX(1.5) scaleY(1.6);
+    opacity: 0;
+}
 
+.btn-animated{
+    animation: moveInbottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}
 
-
+/* @keyframes moveInBottom{
+    0%{
+        opacity: 1;
+        transform: translateY(100px); 
+    }
+    60%{
+        opacity: 1;
+        transform: translateY(100px);
+    }
+    80%{
+        opacity : 1;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
