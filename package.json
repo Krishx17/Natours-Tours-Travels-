@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Landing page for Natours/starter project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rudy45KC/Natours-Tours-Travels-.git"
+  },
+  "author": "Krishnesh Chaurasia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rudy45KC/Natours-Tours-Travels-/issues"
+  },
+  "homepage": "https://github.com/Rudy45KC/Natours-Tours-Travels-#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
