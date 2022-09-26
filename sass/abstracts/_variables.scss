@@ -1,14 +1,21 @@
 $color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #ff0000;
+$color-primary-light:#E28413;
+$color-primary-dark: #E94F37;
 $color-white:#fff;
-$color-gray-dark: #777;
+$color-grey-dark: #777;
 $color-black: #000;
 
 //variable used in the about section of the homepage
-$color-gray-light: #f7f7f7;
+$color-grey-light: #f7f7f7;
 
 //GRID variables
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
+
+//font
+$default-font-size: 1.6rem;
+
+// #E94F37, #E28413);
+
+// background: -webkit-gradient(linear, left top, right top, from(#E94F37), to(#E28413));

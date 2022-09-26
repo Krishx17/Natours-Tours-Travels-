@@ -1,7 +1,6 @@
 .row {
-    
     max-width : 114rem;
-    background-color: #eee;
+    // background-color: #eee;
     margin: 0 auto;   //this trick can be used to center the block elements inside a block element
 
     //&:not pseudo class
@@ -13,10 +12,10 @@
     @include clearfix;
 
     [class^="col-"]{
-        background-image: linear-gradient(
-        to right bottom,
-        rgba($color-primary-light, 0.8),
-        rgba($color-primary-dark, 0.8));
+        // background-image: linear-gradient(
+        // to right bottom,
+        // rgba($color-primary-light, 0.8),
+        // rgba($color-primary-dark, 0.8));
         float: left;
 
         &:not(:last-child){
