@@ -37,14 +37,15 @@ body{
     font-size: 3.5rem;
     text-transform : uppercase;
     font-weight: 800;
-    display: inline-block;
-    color:transparent;
     letter-spacing: .2rem;
+    display: inline-block;    
+    color:transparent;
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-dark, 0.8),
-        rgba($color-primary-light, 0.8)),
-        url(../img/hero.jpg);
+        rgba($color-primary-dark, 0.2),
+        rgba($color-primary-light, 0.2)),
+        url(../img/nat-4.jpg);
+    background-size: cover;
     -webkit-background-clip: text;
     transform: all .2s;
 
