@@ -42,8 +42,8 @@ body{
     color:transparent;
     background-image: linear-gradient(
         to right bottom,
-        rgba($color-primary-dark, 0.2),
-        rgba($color-primary-light, 0.2)),
+        rgba($color-primary-dark, 0.5),
+        rgba($color-primary-light, 0.5)),
         url(../img/nat-4.jpg);
     background-size: cover;
     -webkit-background-clip: text;
